@@ -476,7 +476,7 @@ end
 
 
 local red = redis:new()
-local ok, err red:connect(master.host, master.port)
+local ok, err = red:connect(master.host, master.port)
 -- etc.
 ```
 
